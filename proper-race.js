@@ -8,7 +8,7 @@ Promise.properRace = function(promises, count = 1, results = []) {
    
   return Promise.race(indexPromises).then(index => {
     let p = promises.splice(index, 1)[0];
-    results.push(p);
+    p.then(e => results.push(e));
     if (count === 1) {
       return results;
     }
