@@ -11,7 +11,7 @@ Usage:
     
     Promise.properRace([car1, car2, car3, car4], 3).then(winners => {
       console.log('Race ended');
-      winners[0].then(car => console.log('Gold medal:', car));
-      winners[1].then(car => console.log('Silver medal:', car));
-      winners[2].then(car => console.log('Bronze medal:', car));
+      console.log('Gold medal:', winners[0]);
+      console.log('Silver medal:', winners[1]);
+      console.log('Bronze medal:', winners[2]);
     });
