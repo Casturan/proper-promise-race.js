@@ -1,6 +1,6 @@
 # Promise.properRace
 
-An implementation of Promise.race as explained by this post: https://www.jcore.com/2016/12/18/promise-me-you-wont-use-promise-race/
+An implementation of Promise.race as explained by this post: https://jdriven.com/blog/2016/12/promise-me-you-wont-use-promise-race
 
 Usage:
 
